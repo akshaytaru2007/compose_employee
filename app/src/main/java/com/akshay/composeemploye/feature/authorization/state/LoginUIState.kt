@@ -11,6 +11,8 @@ data class LoginUIState(
 ) {
 
 
+    //Ignore following, I added this for study or future reference purpose.
+    //on how to create Custom savable
     companion object {
         val saver = mapSaver(
             save = { loginUIState: LoginUIState ->
